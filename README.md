@@ -3,7 +3,8 @@
 <h2 align="center">👋 Hello! I'm SmartDengC</h2>
 
 <p align="center">
-  <a href="https://jet5devil.gitee.io">BLOG</a> •
+  <a href="https://wiki.dengcong.com.cn/">WIKI</a> •
+  <a href="https://sci.dengcong.com.cn/">SCI</a> •
   <a href="https://blog.csdn.net/weixin_41288824?spm=1000.2115.3001.5343">CSDN</a>
 </p>
 
@@ -33,7 +34,8 @@ Here are some ideas to get you started:
   <img src ="https://github-readme-streak-stats.herokuapp.com?user=SmartDengC&theme=darcula&hide_border=true&background=FFFFFF00">
   <br>
   <br>
-  <a href="https://www.buymeacoffee.com/aveek.saha"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="aveek.saha" /></a>
+  <a href=""> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="aveek.saha" /></a>
+  <!-- <a href="https://www.buymeacoffee.com/aveek.saha"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="50" width="210" alt="aveek.saha" /></a>  -->
 </p>
   <br>
   <br>

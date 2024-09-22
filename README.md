@@ -3,8 +3,9 @@
 <h2 align="center">👋 Hello! I'm SmartDengC</h2>
 
 <p align="center">
-  <a href="https://wiki.dengcong.com.cn/">WIKI</a> •
-  <a href="https://sci.dengcong.com.cn/">SCI</a> •
+  <a href="https://wiki.dengcong.org/">WIKI</a> •
+  <a href="https://sci.dengcong.org/">SCI</a> •
+  <a href="https://iron.dengcong.org/">IRON</a> •
   <a href="https://blog.csdn.net/weixin_41288824?spm=1000.2115.3001.5343">CSDN</a>
 </p>
 

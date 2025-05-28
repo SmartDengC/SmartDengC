@@ -20,13 +20,13 @@ jobs:
 
     steps:
       # 根据 GitHub 用户（<github_user_name>）的贡献图生成一个贪吃蛇游戏，输出 SVG 动画到 <svg_out_path>
-      - name: 生成 github-contribution-grid-snake.svg
+      - name: 生成 grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }} # 使用仓库所有者的用户名
           outputs: |
-            dist/github-contribution-grid-snake.svg  # 输出普通主题的 SVG 文件
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark  # 输出深色主题的 SVG 文件
+            dist/grid-snake.svg  # 输出普通主题的 SVG 文件
+            dist/grid-snake-dark.svg?palette=github-dark  # 输出深色主题的 SVG 文件
         env:
           GITHUB_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }} # 使用 GitHub 提供的默认令牌
 
@@ -34,10 +34,10 @@ jobs:
       # 内容可以通过以下链接访问：
       # https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file>
       # 或者作为 GitHub Pages 访问
-      - name: 将 github-contribution-grid-snake.svg 推送到 output 分支
+      - name: 将 grid-snake.svg 推送到 output 分支
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output # 目标分支为 output
-          build_dir: dist # 要推送的目录为 dist
+          target_branch: main # 目标分支为 main
+          build_dir: profile-snk # 要推送的目录为 profile-snk
         env:
           GITHUB_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }} # 使用 GitHub 提供的默认令牌

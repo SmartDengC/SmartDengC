@@ -16,5 +16,7 @@
 
 ![](./profile-3d-contrib/profile-season-animate.svg)
 
+![](./github-contribution-grid-snake-dark.svg)
+
 <p align= "center"> 👋 See through life laugh at life. </p>
 <p align= "center"> 🤔 That's your best friend and your worst enemy - your own brain.</p>

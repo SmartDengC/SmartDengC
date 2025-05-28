@@ -1,4 +1,4 @@
-name: generate animation
+name: GENERATE SNK ANIMATION
 
 on:
   # 每 24 小时自动运行一次

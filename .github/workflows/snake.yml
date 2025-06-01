@@ -25,8 +25,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }} # 使用仓库所有者的用户名
           outputs: |
-            dist/grid-snake.svg  # 输出普通主题的 SVG 文件
-            dist/grid-snake-dark.svg?palette=github-dark  # 输出深色主题的 SVG 文件
+            profile-snk/grid-snake.svg  # 输出普通主题的 SVG 文件
+            profile-snk/grid-snake-dark.svg?palette=github-dark  # 输出深色主题的 SVG 文件
         env:
           GITHUB_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }} # 使用 GitHub 提供的默认令牌
 
